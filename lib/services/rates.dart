@@ -1,5 +1,6 @@
 import 'networking.dart';
-import '../utilities/constants.dart';
+
+const apiUrl = 'https://api.coinbase.com/v2/exchange-rates';
 
 const List<String> currenciesList = [
   'AUD',
